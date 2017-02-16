@@ -8126,10 +8126,9 @@ svg#group_blue:hover {}
 }
 
 .about_info p {
-    font-size: 1.23rem;
-    line-height: 1.6rem;
-    padding: 0px 138px;
-    font-family: 'AthelasRegular', sans-serif;
+          font-size: 1rem;
+    line-height: 1.3rem;
+    padding: 0px 120px;
     margin-bottom: 2rem;
 }
 
@@ -8443,4 +8442,37 @@ h1.blue_color {
     background-size: 100%;
     background-position: -40px  100%;
     background-repeat: no-repeat;
+}
+
+.home-header.ser {
+    min-height: initial;
+    height: initial;
+}
+
+.content_w p {
+   font-size: 1rem;
+    line-height: 1.3rem;
+    padding: 0px 120px;
+    margin-bottom: 2rem;
+}
+
+.wrap.white_content {
+    padding: 77px 0;
+    text-align: center;
+}
+
+
+h1.ser_phis {
+    color: #5971bb;
+}
+
+.content_w {
+    margin: 0 auto;
+}
+
+.ser .slider-home {
+    height: initial;
+    padding-bottom: 37px;
+    background: url(/images/cover6.jpg) no-repeat;
+    background-size: cover;
 }
