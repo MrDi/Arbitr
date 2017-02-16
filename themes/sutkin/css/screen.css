@@ -8196,7 +8196,7 @@ p {font-family: 'GothamProRegular', sans-serif;}
     color: #5971bb;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 1rem 0;
+    margin: 1rem 0 0.5rem 0;
     line-height: 1.9rem;
 }
 
@@ -8206,13 +8206,12 @@ p {
 }
 
 .place {
-    font-size: 1.2rem;
-    margin: 1rem 0 2rem 0;
+    font-size: 1rem;
+    margin: 0rem 0 0.5rem 0;
     letter-spacing: 1px;
 }
-
 .right_t p {
-    margin: 1rem 0;
+    margin: 0.4rem 0;
     line-height: 1.5rem;
     font-size: 0.94rem;
 }
@@ -8222,7 +8221,7 @@ p {
     display: block;
     height: 1px;
     background: rgba(151, 151, 151, 0.43);
-    margin-top: 1rem;
+    margin-top: 1.1rem;
     width: 48px;
 }
 
@@ -8271,8 +8270,19 @@ p {
     width: 48px;
 }
 
+
+.wrap.lawyer .right_t {
+    min-height: 511px;
+    position: relative;
+    top: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
 .place.not_d {
-    margin: 1.2rem 0;
+    margin: -11px 0 1rem 0;
+    width: 100%;
 }
 
 .wrap.lawyer.left_image.not_h {
@@ -8379,4 +8389,36 @@ h1.blue_color {
 }
 .dark_back_l {
     position: relative;
+}
+
+.law-2 {
+     background: url(/images/photo2.png);
+    background-size: 100%;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+
+.cover6 {
+      background: url(/images/cover6.jpg);
+    background-size: cover;
+}
+
+.wrap.lawyer .right_t {
+    min-height: 511px;
+}
+
+.lawyer_block {
+    position: relative;
+}
+
+.cover7 {
+    background: url(/images/cover7.jpg);
+    background-size: cover;
+}
+
+.law-3 {
+     background: url(/images/photo3.png);
+    background-size: 100%;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
 }
