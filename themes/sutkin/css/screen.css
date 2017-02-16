@@ -8502,7 +8502,7 @@ h1.ser_phis {
 }
 
 .name_law {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #5971bb;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -8536,4 +8536,70 @@ h2 {
     margin-top: 0.7rem;
     width: 48px;
         margin-bottom: 0.9rem;
+}
+
+
+.images_law.law-1{background: url(/images/photo_mini1.jpg);}
+.images_law.law-2{background: url(/images/photo_mini2.jpg);}
+.images_law.law-3{background: url(/images/photo_mini3.jpg);}
+.images_law.law-4{background: url(/images/photo_mini4.jpg);}
+.images_law.law-5{background: url(/images/photo_mini5.jpg);}
+.images_law.law-6{background: url(/images/photo_mini6.jpg);}
+
+.big_t {
+       font-family: 'AthelasRegular', sans-serif;
+    font-size: 2rem;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    padding: 0 25px;
+}
+
+.grid_li ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.grid_li ul li:before {
+    content: '1';
+    position: absolute;
+    left: 0;
+    top: -24px;
+    font-size: 71px;
+    color: #5971bb;
+}
+
+.grid_li ul li.num_2:before {
+    content: '2';
+}
+
+.grid_li ul li.num_3:before {
+    content: '3';
+}
+
+.grid_li ul li.num_4:before {
+    content: '4';
+}
+
+
+.grid_li ul li.num_5:before {
+    content: '5';
+}
+.grid_li ul li {
+    width: 26.3333%;
+    font-family: 'GothamProRegular', sans-serif;
+    padding: 10px 2% 10px 5%;
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    position: relative;
+        margin-bottom: 100px;
+}
+
+.grid_li {
+    margin-top: 104px;
 }
