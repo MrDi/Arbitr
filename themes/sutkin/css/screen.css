@@ -8187,7 +8187,7 @@ p {font-family: 'GothamProRegular', sans-serif;}
 .left_i.law-1 {
     background: url(/images/photo1.png);
     background-size: 100%;
-    background-position: 0 100%;
+    background-position: -40px  100%;
     background-repeat: no-repeat;
 }
 
@@ -8209,6 +8209,7 @@ p {
     font-size: 1rem;
     margin: 0rem 0 0.5rem 0;
     letter-spacing: 1px;
+    width: 100%;
 }
 .right_t p {
     margin: 0.4rem 0;
@@ -8394,7 +8395,7 @@ h1.blue_color {
 .law-2 {
      background: url(/images/photo2.png);
     background-size: 100%;
-    background-position: 0 100%;
+    background-position: -40px  100%;
     background-repeat: no-repeat;
 }
 
@@ -8419,6 +8420,27 @@ h1.blue_color {
 .law-3 {
      background: url(/images/photo3.png);
     background-size: 100%;
-    background-position: 0 100%;
+    background-position: -40px  100%;
+    background-repeat: no-repeat;
+}
+
+.law-4 {
+     background: url(/images/photo4.png);
+    background-size: 100%;
+    background-position: -40px  100%;
+    background-repeat: no-repeat;
+}
+
+.law-5 {
+     background: url(/images/photo5.png);
+    background-size: 100%;
+    background-position: -40px 100%;
+    background-repeat: no-repeat;
+}
+
+.law-6 {
+     background: url(/images/photo6.png);
+    background-size: 100%;
+    background-position: -40px  100%;
     background-repeat: no-repeat;
 }
