@@ -8183,7 +8183,7 @@ p {font-family: 'GothamProRegular', sans-serif;}
     /* align-content: center; */
 }
 
-.left_i.law-1 {
+.law-1 {
     background: url(/images/photo1.png);
     background-size: 100%;
     background-position: -40px  100%;
@@ -8475,4 +8475,65 @@ h1.ser_phis {
     padding-bottom: 37px;
     background: url(/images/cover6.jpg) no-repeat;
     background-size: cover;
+}
+
+
+.wrap.flex-row .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 66px;
+}
+
+.laws {
+    width: 28%;
+}
+
+.images_law {
+       width: 100%;
+    height: 331px;
+    background-position: 0 0;
+      background-color: #0f121c;
+    background-size: cover;
+}
+
+.law_done {
+    background: #191919;
+    padding: 77px 0 47px 0;
+}
+
+.name_law {
+    font-size: 1.2rem;
+    color: #5971bb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 1rem 0 0.5rem 0;
+    line-height: 1.5rem;
+    font-family: 'GothamProRegular', sans-serif;
+}
+h2 {
+    font-family: 'AthelasRegular', sans-serif;
+    font-size: 2rem;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+    text-align: CENTER;
+    margin: 0 0 71px 0;
+}
+
+.text_law {
+    font-family: 'GothamProRegular', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.name_law.place:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: rgba(151, 151, 151, 0.43);
+    margin-top: 0.7rem;
+    width: 48px;
+        margin-bottom: 0.9rem;
 }
